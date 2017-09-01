@@ -17,4 +17,4 @@ classsify 2d data set by deep neural network
 # output
 ![Alt text](/output/double_circle_2hidden_batch.png?raw=true)
 
-![Alt text](/output/triple moons 2hidden(10, batch, relu).png)
+![Alt text](/output/triple moons 2hidden(10, batch, relu).png "classify double circle")
