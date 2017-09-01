@@ -26,4 +26,4 @@ classsify 2d data set by deep neural network
 - Batch norm is good (In tf.contrib.layers.batchnorm default decay is 0.999, but this not works well. I use 0.9 for decay.)
 - The deep is better than the fat network
 - Decaying learning rate is good (by factor 2 i.e. /=2)
-- Small batch size is efficient, but sometimes it is hard to train. 
+- Small batch size is efficient(fast), but sometimes it is hard to train. 
