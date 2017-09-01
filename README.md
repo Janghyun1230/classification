@@ -15,6 +15,6 @@ classsify 2d data set by deep neural network
 >you can input hyperparameters. e.g. batch_size, epoch, learning rate...
 
 # output
-![Alt text](/output/double_circle 2 hidden(10, batch, relu, 10, relu).png)
+![Alt text](/output/double_circle 2 hidden(10, batch, relu, 10, relu).png?raw=true)
 
 ![Alt text](/output/triple moons 2hidden(10, batch, relu).png)
