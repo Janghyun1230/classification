@@ -6,8 +6,14 @@ from optim import *
 import time
 from classification_dataset import moons, circle
 
+
+# data set
+data, label, x_range, y_range = moons(sample_per_class= 250, iter=3)
+
+
 tf.reset_default_graph()
 
+# hyperparameters
 batch_size = 500
 epoch = 400
 print_per_epoch = 10
@@ -16,15 +22,11 @@ lr_decay_epoch = 200
 
 layers = [('fc1', {'n_out': 10, 'act': relu, 'batch': True}),
           ('fc2', {'n_out': 10, 'act': relu, 'batch': True}),
-          ('fc7', {'n_out': 1, 'act': sigmoid})
+          ('fc3', {'n_out': 1, 'act': sigmoid})
           ]
 
 lr = tf.placeholder(tf.float32)
 net_optimizer = optimizer("adam", lr=lr, beta1=0.5, beta2=0.999)
-
-
-# data set
-data, label, x_range, y_range = moons(sample_per_class= 250, iter=3)
 
 
 # graph
