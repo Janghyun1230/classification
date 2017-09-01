@@ -5,8 +5,7 @@ classsify 2d data set by deep neural network
 >functions which generate datasets. now has circle, moons
 
 ### network.py
->activation functions and network function which draw tensorflow layers by input dictionary.
->now it can draw fullyconnected, conv2D, transpose conv2D with reshape, batch nomalization. I'll update concat and residual.
+>activation functions and network function which draw tensorflow layers by input dictionary. <br/> now it can draw fullyconnected, conv2D, transpose conv2D with reshape, batch nomalization. 
 
 ### optim.py
 >optimizer function which return tensorflow optimizer.
