@@ -15,6 +15,15 @@ classsify 2d data set by deep neural network
 >you can input hyperparameters. e.g. batch_size, epoch, learning rate...
 
 # output
+#### double circle
 ![Alt text](/output/double_circle_2hidden_batch.png?raw=true "classify double circle")
 
-![Alt text](/output/triple moons 2hidden(10, batch, relu).png )
+#### triple moons
+![Alt text](/output/triple_moons_2hidden_batch.png )
+
+
+# Summary
+- Batch norm is good (In tf.contrib.layers.batchnorm default decay is 0.999, but this not works well. I use 0.9 for decay.)
+- The deep is better than the fat network
+- Decaying learning rate is good (by factor 2 i.e. /=2)
+- Small batch size is efficient, but sometimes it is hard to train. 
